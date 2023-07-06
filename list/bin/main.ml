@@ -1,10 +1,12 @@
-
-
-
+let lenght list =
+  let rec aux n = function
+  | [] -> n
+  | _ :: t -> aux (n + 1) t
+in
+aux 0 list
 
 let () = 
 let list = [1;2;3;4;5] in 
-  get_last2 list
-  |> function
-  | Some (x, y) -> print_endline ((Int.to_string x) ^ " " ^ (Int.to_string y))
-  | None -> print_endline "short list"
+  lenght list
+  |> Int.to_string
+  |> print_endline

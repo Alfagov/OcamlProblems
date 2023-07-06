@@ -3,7 +3,7 @@
 # Shared cache: disabled
 # Workspace root: /home/alfagov/OcamlProblems/list
 # Auto-detected concurrency: 12
-$ /home/alfagov/.opam/4.14.1/bin/ocamlc.opt -config > /tmp/dune_451f89_output
+$ /home/alfagov/.opam/4.14.1/bin/ocamlc.opt -config > /tmp/dune_d62e1a_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -108,5 +108,5 @@ $ /home/alfagov/.opam/4.14.1/bin/ocamlc.opt -config > /tmp/dune_451f89_output
 #      ; windows_unicode = false
 #      }
 #  }
-$ (cd _build/default && /home/alfagov/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/list_last_nth/.list_last_nth.eobjs/byte -I bin/list_last_nth/.list_last_nth.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/list_last_nth/.list_last_nth.eobjs/native/dune__exe__List_last_nth.cmx -c -impl bin/list_last_nth/list_last_nth.ml)
-$ (cd _build/default && /home/alfagov/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/list_last_nth/list_last_nth.exe bin/list_last_nth/.list_last_nth.eobjs/native/dune__exe__List_last_nth.cmx)
+$ (cd _build/default && /home/alfagov/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.list.objs/byte -I lib/.list.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /home/alfagov/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/list.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
