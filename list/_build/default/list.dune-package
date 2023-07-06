@@ -1,0 +1,6 @@
+(lang dune 3.8)
+(name list)
+(sections (lib .) (bin ../../bin))
+(files
+ (lib (META dune-package opam))
+ (bin (list list_last list_last2 list_last_nth)))

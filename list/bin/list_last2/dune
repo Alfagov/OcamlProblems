@@ -1,0 +1,4 @@
+(executable
+ (public_name list_last2)
+ (name list_last2))
+
