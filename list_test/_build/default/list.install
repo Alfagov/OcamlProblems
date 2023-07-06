@@ -4,8 +4,8 @@ lib: [
   "_build/install/default/lib/list/opam"
 ]
 bin: [
-  "_build/install/default/bin/list"
   "_build/install/default/bin/list_last"
   "_build/install/default/bin/list_last2"
   "_build/install/default/bin/list_last_nth"
+  "_build/install/default/bin/list_test"
 ]

@@ -3,4 +3,4 @@
 (sections (lib .) (bin ../../bin))
 (files
  (lib (META dune-package opam))
- (bin (list list_last list_last2 list_last_nth)))
+ (bin (list_last list_last2 list_last_nth list_test)))
